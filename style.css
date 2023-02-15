@@ -1,0 +1,219 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0  ;
+}
+section {
+    padding: 120px 0;
+}
+.section-header {
+    margin-bottom: 75px;
+}
+.selection-header h2 {
+    color: #333 ;
+    font-size: 2em;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-header {
+    background-image: url(img/portfolio.jpeg);
+    height: 70vh;
+    background-size: cover ;
+    background-position: center;
+    color: rgb(29, 65, 29);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+}
+.main-header .main-header-content {
+    text-align: center;
+}
+hr{
+    width: 20%;
+    color:rgb(55, 117, 55);
+    border-bottom: 0;
+}
+.main-header .main-header-content h2{
+    font-size: 4em;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+}
+.main-header .main-header-content p {
+   
+    font-size: 1.5em;
+    margin: 40px 0;
+}
+.main-header .main-header-content p span {
+    color: rgb(55, 117, 55);
+}
+p{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    
+    border: solid 3px rgb(55, 117, 55);
+    color:rgb(0, 151, 68);
+    font-size: large;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: all .3s;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color:rgb(55, 117, 55) ;
+}
+
+.main-menu {
+ 
+background-color: rgb(55, 117, 55);
+}
+
+.main-menu ul   {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: whitesmoke;
+}
+.main-menu ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    transition: all.3s;
+    padding: 20px 20px;
+    
+}
+.main-menu ul li a:hover {
+    color: rgb(55, 117, 55);
+    background-color: white;
+    
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.about hr {
+    width: 10%;
+}
+.about{
+    text-align: center;
+    
+}
+.about img {
+    
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    
+   
+}
+
+.about p {
+   
+   width: 700px;
+  margin: 40px auto 30px auto;
+  color: aqua;
+  line-height: 1.5;
+    
+
+}
+.portfolio {
+    background-color: rgb(50, 82, 50);
+}
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-wrapper .portfolio-item{
+    flex-basis: 33%;
+    height: 200px;
+    position: relative;
+}
+.portfolio-wrapper .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio-wrapper .portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(177, 177, 177);
+     margin: 0;
+    text-align: center;
+    line-height:  200px;
+    color: white;
+    font-size: 3em;
+    opacity: 0;
+    transition: all 3s;
+}
+.portfolio-wrapper .portfolio-item h3:hover {
+    opacity: 1;
+}
+
+.contact form {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact input[type="text"],
+.contact input[type="email"] {
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.contact textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height:  100px;
+}
+
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+.social-links .social-link {
+    font-size: 2.5em;
+    color: blue ;
+    transition: all .3s;
+    display: inline-block;
+    margin: 0 20px;
+}
+.social-links .social-link:hover {
+    color: gray;
+}
+footer{
+    background-color: rgb(50, 82, 50);
+    padding: 30px;
+    text-align: center;
+    color: #333;
+}
